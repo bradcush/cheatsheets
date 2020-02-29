@@ -8,7 +8,7 @@ A list of simple but more obscure commands for vim
 
 ## Cut/copy/paste
 * `:"*yiw`: Yank inner word to global clipboard register
-* `:<C-r>0`: Paste contents of yank register in insert mode
+* `<C-r>0`: Paste contents of yank register in insert mode
 
 ## Mnemonics
 A list of general mnemonics for vim key bindings
