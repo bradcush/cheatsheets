@@ -61,11 +61,21 @@ Copy/paste, replaying compound actions, and marking locations
 #### Registers
 * `*`: Global clipboard register for unix systems (Alias `+`)
 (Can depend on your specific system such as MacOS or Linux)
+* `[1-9]`: History registers
+* `[a-z]`: Named registers
+* `[A-Z]`: Named appending registers
 * `0`: Default yank register
 * `"`: Last yank/cut text
-* `/`: Last pattern matching
+* `/`: Last search pattern
+* `-`: Small delete register (eg. `daw`)
+* `_`: Black hole register
+* `=`: Expression register
+
+##### Read-only registers
 * `:`: Last entered command
+* `.`: Last inserted text
 * `%`: Current filename register
+* `#`: Alternate filename register (Last file edited)
 
 #### Macros
 #### Marks
