@@ -83,6 +83,15 @@ Copy/paste, replaying compound actions, and marking locations
 * `#`: Alternate filename register (Last file edited)
 
 #### Macros
+Any single action you perform you should think to yourself if this action
+is repeatable or not. If it's not, you're likely doing something wrong.
+Any single action can be repeated using the `.` command except for more
+complex and compound actions that are split by motion.
+
+* `.`: Single command repeat
+
+##### Complex macros
+
 #### Marks
 
 ## Simple commands
