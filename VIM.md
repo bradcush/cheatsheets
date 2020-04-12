@@ -48,8 +48,13 @@ the concepts of built-in nouns, verbs, and modifiers.
 ### Buffers, windows, and tab pages
 Working with files in vim is slightly different that what you're used
 to with your traditional editor. Buffers are the way you interact with
-files and so the relationship between buffers, windows, and tab pages
-is a fundamental idea one needs to understand.
+files and more generally and view into a file on disk. Think of them
+as an in memory representation of a file. The relationship between buffers,
+windows, and tab pages is a fundamental idea in working with vim.
+
+* Buffers (Views into files)
+* Windows (Views into buffers)
+* Tab pages (Views into windows)
 
 #### Tab pages > windows > buffers
 Tab pages can contains many windows, which can contain many buffers,
