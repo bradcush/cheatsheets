@@ -126,6 +126,11 @@ more creative mnemonic to remember it's purpose.
 ### netrw
 * `i`: Toggle between file system views
 * `gn`: Make directory under current position current
+* `<C-l>`: Refresh the directory listing buffer
+
+### Spelling
+* `z=`: For bad word under the cursor suggest corrections
+* `[s`/`]s`: Navigate backwards/forwards to next bad word
 
 ### Miscellaneous
 * `:bo`: Bottom right (Anchors split windows commands)
@@ -151,5 +156,7 @@ Examples of useful but more complex commands
 (If you're using fugitive then `:Ggrep` can be the most useful)
 
 ### Miscellaneous
-* `:b0 | vsplit` (Open a buffer 0 in a split window)
+* `:b0 | vsplit` Open a buffer 0 in a split window
 (`|` in vim is used to run multiple commands consecutively if the previous succeeds)
+* `:verbose :map b`: List all key mappings starting with the b key
+(Useful for debugging slowness with default vim key bindings)
