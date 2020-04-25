@@ -7,7 +7,7 @@ A list of simple but helpful commands and workflows for git
 * `git reset --hard <commit>`: Reset the head of your current branch to specific commit
 
 ## Rebasing
-* `git rebase --onto <new-parent> <old-parent>`: Rebasing your work of a new parent
+* `git rebase --onto <new-parent> <old-parent>`: Rebasing your work off a new parent
 
 ## Miscellaneous
 * `git show <commit>`: Show the commit information for a specific hash
