@@ -110,6 +110,14 @@ more creative mnemonic to remember it's purpose.
 * `g;`: Go (To older entry in change list)
 * `g,`: Go (To newer entry in change list)
 
+### Windows
+* `<C-w>R`: Swap placement of split windows
+* `<C-w>=`: Set split windows width/height equal to each other
+* `<C-w>c`: Close the currently focused window
+* `<C-w>|`: Fully expand currently focused vertical split
+* `<C-w>_`: Fully expand currently focused horizontal split
+* `:vertical resize +10`: Add 10 columns to the focused window (Alias `:vert res +10`)
+
 ### Buffers
 * `:b`: Buffer (Alias `:buffer`)
 * `:bp`: Buffer previous (Alias `:bprev`)
