@@ -14,5 +14,8 @@ A list of simple but helpful commands and workflows for git
 * `git remote set-url origin <remote-url>`: Change origin remote URL
 * `git remote -v`: List currently configure remotes
 
+## Revert
+* `git revert <merge-commit> -m <mainline-parent-id>`: Revert a merge commit entirely
+
 ## Miscellaneous
 * `git show <commit>`: Show the commit information for a specific hash
