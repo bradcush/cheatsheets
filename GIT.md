@@ -19,3 +19,4 @@ A list of simple but helpful commands and workflows for git
 
 ## Miscellaneous
 * `git show <commit>`: Show the commit information for a specific hash
+* `git log --oneline`: Log all commits showing a single line only
