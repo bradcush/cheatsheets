@@ -17,6 +17,10 @@ A list of simple but helpful commands and workflows for git
 ## Revert
 * `git revert <merge-commit> -m <mainline-parent-id>`: Revert a merge commit entirely
 
+## Tags
+* `git tag --delete <tagname>`: Delete a tag locally
+* `git push --delete origin <tagname>`: Delete a tag on remotely on origin
+
 ## Miscellaneous
 * `git show <commit>`: Show the commit information for a specific hash
 * `git log --oneline`: Log all commits showing a single line only
